@@ -16,6 +16,40 @@ University of Rochester.
 
 This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (http://arxiv.org/abs/1512.03385). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
 
+###Run the code
+0. Pre-installation
+	- [Tensorflow](https://www.tensorflow.org/install/)
+	- [Ants](https://github.com/ANTsX/ANTs)
+	- [nibabel](http://nipy.org/nibabel/)
+	- [sklearn](http://scikit-learn.org/stable/)
+	- [numpy](http://www.numpy.org/)
+0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
+
+0. In this paper, we only use the glioblastoma (HGG) dataset:
+'' python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+0. Train the model:  'python train.py'
+	- '-gpu': gpu id
+	- '-bs': batch size 
+	- '-mn': model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
+	- '-nc':  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467),True or False
+	- '-e': epoch number 
+	- '-r': data path
+	- '-sp': save path/name
+	- ...
+For example:
+'python train.py -bs 2 -gpu 0  -mn dense24 -nc True -sp dense48_correction -e 5  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+
+0. Test the model: 'python test.py'
+	- '-gpu': gpu id
+	- '-m': model path, the saved model name
+	- '-mn': model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
+	- '-nc':  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467), True or False
+	- '-r': data path
+	- ...
+
+For example:
+'python test.py -m Dense24_correction-2 -mn dense24 -gpu 0 -nc True  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+
 
 
 ### Citation
@@ -31,7 +65,6 @@ If you use these models in your research, please cite:
 ### Disclaimer and known issues
 
 0. These codes are implmented in Tensorflow
-0. You need to install [Ants](https://github.com/ANTsX/ANTs)
 0. If you want to train these models using this version of tensorflow without modifications, please notice that:
 	- You need at lest 12 GB GPU memory.
 	- There might be some other untested issues.
