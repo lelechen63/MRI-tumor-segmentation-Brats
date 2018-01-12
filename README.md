@@ -18,13 +18,10 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 ###Run the code
 
-0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
-
-0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/),
 
 0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/)
 
-0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
+0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/)
 
 0. In this paper, we only use the glioblastoma (HGG) dataset:
 '' python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
