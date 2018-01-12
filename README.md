@@ -18,6 +18,7 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 ###Run the code
 0. Pre-installation
+	- [Tensorflow](https://www.tensorflow.org/install/)
 
 	[Tensorflow](https://www.tensorflow.org/install/)
 	[Ants](https://github.com/ANTsX/ANTs)
