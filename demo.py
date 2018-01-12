@@ -230,37 +230,37 @@ def main():
             print 'calculating dice...'
             print  options['save_path'] +  test_files[i] +'_prediction'
             np.save(options['save_path'] +  test_files[i] +'_prediction',pred)
-            # whole_pred = (pred > 0).astype(int)
-            # whole_gt = (y > 0).astype(int)
-            # core_pred = (pred == 1).astype(int) + (pred == 4).astype(int)
-            # core_gt = (y == 1).astype(int) + (y == 4).astype(int)
-            # et_pred = (pred == 4).astype(int)
-            # et_gt = (y == 4).astype(int)
-            # dice_whole_batch = dice_coef_np(whole_gt, whole_pred, 2)
-            # dice_core_batch = dice_coef_np(core_gt, core_pred, 2)
-            # dice_et_batch = dice_coef_np(et_gt, et_pred, 2)
-            # dice_whole.append(dice_whole_batch)
-            # dice_core.append(dice_core_batch)
-            # dice_et.append(dice_et_batch)
-            # print dice_whole_batch
-            # print dice_core_batch
-            # print dice_et_batch
+            whole_pred = (pred > 0).astype(int)
+            whole_gt = (y > 0).astype(int)
+            core_pred = (pred == 1).astype(int) + (pred == 4).astype(int)
+            core_gt = (y == 1).astype(int) + (y == 4).astype(int)
+            et_pred = (pred == 4).astype(int)
+            et_gt = (y == 4).astype(int)
+            dice_whole_batch = dice_coef_np(whole_gt, whole_pred, 2)
+            dice_core_batch = dice_coef_np(core_gt, core_pred, 2)
+            dice_et_batch = dice_coef_np(et_gt, et_pred, 2)
+            dice_whole.append(dice_whole_batch)
+            dice_core.append(dice_core_batch)
+            dice_et.append(dice_et_batch)
+            print dice_whole_batch
+            print dice_core_batch
+            print dice_et_batch
 
-        # dice_whole = np.array(dice_whole)
-        # dice_core = np.array(dice_core)
-        # dice_et = np.array(dice_et)
+        dice_whole = np.array(dice_whole)
+        dice_core = np.array(dice_core)
+        dice_et = np.array(dice_et)
 
-        # print 'mean dice whole:'
-        # print np.mean(dice_whole, axis=0)
-        # print 'mean dice core:'
-        # print np.mean(dice_core, axis=0)
-        # print 'mean dice enhance:'
-        # print np.mean(dice_et, axis=0)
+        print 'mean dice whole:'
+        print np.mean(dice_whole, axis=0)
+        print 'mean dice core:'
+        print np.mean(dice_core, axis=0)
+        print 'mean dice enhance:'
+        print np.mean(dice_et, axis=0)
 
-        # np.save(model_name + '_dice_whole', dice_whole)
-        # np.save(model_name + '_dice_core', dice_core)
-        # np.save(model_name + '_dice_enhance', dice_et)
-        # print 'pred saved'
+        np.save(model_name + '_dice_whole', dice_whole)
+        np.save(model_name + '_dice_core', dice_core)
+        np.save(model_name + '_dice_enhance', dice_et)
+        print 'pred saved'
 
 
 if __name__ == '__main__':
