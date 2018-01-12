@@ -33,8 +33,7 @@ If you use these models or the ideas in your research, please cite:
 
 0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/)
 
-0. In this paper, we only use the glioblastoma (HGG) dataset:
-'' python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+0. In this paper, we only use the glioblastoma (HGG) dataset: `python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 0. Train the model:  `python train.py`
 	- `-gpu`: gpu id
 	- `-bs`: batch size 
