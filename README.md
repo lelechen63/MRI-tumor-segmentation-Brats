@@ -18,11 +18,13 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 ###Run the code
 0. Pre-installation
+
 	- [Tensorflow](https://www.tensorflow.org/install/)
 	- [Ants](https://github.com/ANTsX/ANTs)
 	- [nibabel](http://nipy.org/nibabel/)
 	- [sklearn](http://scikit-learn.org/stable/)
 	- [numpy](http://www.numpy.org/)
+	
 0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
 
 0. In this paper, we only use the glioblastoma (HGG) dataset:
@@ -39,7 +41,7 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 For example:
 `python train.py -bs 2 -gpu 0  -mn dense24 -nc True -sp dense48_correction -e 5  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
-0. Test the model: 'python test.py'
+0. Test the model: `python test.py`
 	- `-gpu`: gpu id
 	- `-m`: model path, the saved model name
 	- `-mn`: model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
