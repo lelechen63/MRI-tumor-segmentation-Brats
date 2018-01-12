@@ -22,8 +22,7 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 If you use these models in your research, please cite:
 
-	@article{DBLP:journals/corr/ChenSDX17,
-  author    = {Lele Chen and
+	@article{DBLP:journals/corr/ChenSDX17,author    = {Lele Chen and
                Sudhanshu Srivastava and
                Zhiyao Duan and
                Chenliang Xu},
