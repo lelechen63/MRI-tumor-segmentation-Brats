@@ -7,10 +7,10 @@ University of Rochester.
 ### Table of Contents
 0. [Introduction](#introduction)
 0. [Citation](#citation)
+0. [Running](#running)
+
 0. [Disclaimer and known issues](#disclaimer-and-known-issues)
-0. [Models](#models)
 0. [Results](#results)
-0. [Third-party re-implementations](#third-party-re-implementations)
 
 ### Introduction
 
@@ -26,7 +26,7 @@ If you use these models or the ideas in your research, please cite:
                Zhiyao Duan and
                Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
 }
-###Run the code
+###Running
 
 
 0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/)
