@@ -17,6 +17,11 @@ University of Rochester.
 This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (http://arxiv.org/abs/1512.03385). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
 
 ###Run the code
+
+0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
+
+0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/),
+
 0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/)
 
 0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
