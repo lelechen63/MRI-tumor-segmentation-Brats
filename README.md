@@ -27,28 +27,28 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 0. In this paper, we only use the glioblastoma (HGG) dataset:
 '' python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
-0. Train the model:  'python train.py'
-	- '-gpu': gpu id
-	- '-bs': batch size 
-	- '-mn': model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
-	- '-nc':  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467),True or False
-	- '-e': epoch number 
-	- '-r': data path
-	- '-sp': save path/name
+0. Train the model:  `python train.py`
+	- `-gpu`: gpu id
+	- `-bs`: batch size 
+	- `-mn`: model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
+	- `-nc`:  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467),True or False
+	- `-e`: epoch number 
+	- `-r`: data path
+	- `-sp`: save path/name
 	- ...
 For example:
-'python train.py -bs 2 -gpu 0  -mn dense24 -nc True -sp dense48_correction -e 5  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+`python train.py -bs 2 -gpu 0  -mn dense24 -nc True -sp dense48_correction -e 5  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
 0. Test the model: 'python test.py'
-	- '-gpu': gpu id
-	- '-m': model path, the saved model name
-	- '-mn': model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
-	- '-nc':  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467), True or False
-	- '-r': data path
+	- `-gpu`: gpu id
+	- `-m`: model path, the saved model name
+	- `-mn`: model name, 'dense24' or 'dense48' or 'no-dense' or 'dense24_nocorrection'
+	- `-nc`:  [n4ITK bias correction](https://www.ncbi.nlm.nih.gov/pubmed/20378467), True or False
+	- `-r`: data path
 	- ...
 
 For example:
-'python test.py -m Dense24_correction-2 -mn dense24 -gpu 0 -nc True  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG'
+`python test.py -m Dense24_correction-2 -mn dense24 -gpu 0 -nc True  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
 
 
