@@ -25,17 +25,7 @@ If you use these models in your research, please cite:
 	@article{DBLP:journals/corr/ChenSDX17,author    = {Lele Chen and
                Sudhanshu Srivastava and
                Zhiyao Duan and
-               Chenliang Xu},
-  title     = {Deep Cross-Modal Audio-Visual Generation},
-  journal   = {CoRR},
-  volume    = {abs/1704.08292},
-  year      = {2017},
-  url       = {http://arxiv.org/abs/1704.08292},
-  archivePrefix = {arXiv},
-  eprint    = {1704.08292},
-  timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},
-  biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},
-  bibsource = {dblp computer science bibliography, http://dblp.org}
+               Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
 }
 
 ### Disclaimer and known issues
