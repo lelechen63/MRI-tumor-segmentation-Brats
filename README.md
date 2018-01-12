@@ -18,11 +18,12 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 ###Run the code
 0. Pre-installation
-	- [Tensorflow](https://www.tensorflow.org/install/)
-	- [Ants](https://github.com/ANTsX/ANTs)
-	- [nibabel](http://nipy.org/nibabel/)
-	- [sklearn](http://scikit-learn.org/stable/)
-	- [numpy](http://www.numpy.org/)
+
+	[Tensorflow](https://www.tensorflow.org/install/)
+	[Ants](https://github.com/ANTsX/ANTs)
+	[nibabel](http://nipy.org/nibabel/)
+	[sklearn](http://scikit-learn.org/stable/)
+	[numpy](http://www.numpy.org/)
 
 0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/), 
 
