@@ -16,6 +16,16 @@ University of Rochester.
 
 This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (http://arxiv.org/abs/1512.03385). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
 
+
+### Citation
+
+If you use these models or the ideas in your research, please cite:
+
+	@article{DBLP:journals/corr/ChenSDX17,author    = {Lele Chen and
+               Sudhanshu Srivastava and
+               Zhiyao Duan and
+               Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
+}
 ###Run the code
 
 
@@ -49,16 +59,6 @@ For example:
 `python test.py -m Dense24_correction-2 -mn dense24 -gpu 0 -nc True  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
 
-
-### Citation
-
-If you use these models in your research, please cite:
-
-	@article{DBLP:journals/corr/ChenSDX17,author    = {Lele Chen and
-               Sudhanshu Srivastava and
-               Zhiyao Duan and
-               Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
-}
 
 ### Disclaimer and known issues
 
