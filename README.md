@@ -26,14 +26,15 @@ If you use these models or the ideas in your research, please cite:
                Zhiyao Duan and
                Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
 }
-###Running
+
+### Running
 
 
 0. Pre-installation:[Tensorflow](https://www.tensorflow.org/install/),[Ants](https://github.com/ANTsX/ANTs),[nibabel](http://nipy.org/nibabel/),[sklearn](http://scikit-learn.org/stable/),[numpy](http://www.numpy.org/)
 
 0. Download and unzip the training data from [BTRAS2017](http://braintumorsegmentation.org/)
 
-0. In this paper, we only use the glioblastoma (HGG) dataset: `python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
+0. Use N4ITK to correct the data: `python n4correction.py /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 0. Train the model:  `python train.py`
 	- `-gpu`: gpu id
 	- `-bs`: batch size 
@@ -62,6 +63,8 @@ For example:
 ### Disclaimer and known issues
 
 0. These codes are implmented in Tensorflow
+0. In this paper, we only use the glioblastoma (HGG) dataset.
+0. I didn't config nipype.interfaces.ants.segmentation. So if you need to use `n4correction.py` code, you need to copy it to the bin directory where antsRegistration etc are located. Then run `python n4correction.py`
 0. If you want to train these models using this version of tensorflow without modifications, please notice that:
 	- You need at lest 12 GB GPU memory.
 	- There might be some other untested issues.
