@@ -8,7 +8,7 @@ University of Rochester.
 0. [Introduction](#introduction)
 0. [Citation](#citation)
 0. [Running](#running)
-
+0. [Model](#model)
 0. [Disclaimer and known issues](#disclaimer-and-known-issues)
 0. [Results](#results)
 
@@ -59,6 +59,14 @@ For example:
 `python test.py -m Dense24_correction-2 -mn dense24 -gpu 0 -nc True  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
 
+### Model
+
+0. Hierarchical segmentation
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/overview.pdf)
+	
+0. 3D densely connected CNN
+
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/dense.pdf)
 
 ### Disclaimer and known issues
 
@@ -72,7 +80,8 @@ For example:
 
 ### Results
 0. Result visualization :
-	![visualization](https://github.com/lelechen63/Hierarchical-MRI-tumor-segmentation-with-densely-connected-3D-CNN/blob/master/image/result.jpg)
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/h.png)
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/v.png)
 
 0. Quantitative results:
 
