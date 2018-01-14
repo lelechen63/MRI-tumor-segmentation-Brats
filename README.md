@@ -62,11 +62,11 @@ For example:
 ### Model
 
 0. Hierarchical segmentation
-	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/overview.pdf)
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/1.png)
 	
 0. 3D densely connected CNN
 
-	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/dense.pdf)
+	![visualization](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/2.png)
 
 ### Disclaimer and known issues
 
