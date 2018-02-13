@@ -1,6 +1,6 @@
 # Hierarchical MRI tumor segmentation with densely connected 3D CNN
 
-By [Lele Chen], [Yue Wu], [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),[Anas Z. Abidin], [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/), [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller).
+By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),[Anas Z. Abidin], [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/), [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller).
 
 University of Rochester.
 
@@ -14,19 +14,21 @@ University of Rochester.
 
 ### Introduction
 
-This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (http://arxiv.org/abs/1512.03385). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
+This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (https://arxiv.org/abs/1802.02427). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
 
 
 ### Citation
 
 If you use these models or the ideas in your research, please cite:
-
-	@article{DBLP:journals/corr/ChenSDX17,author    = {Lele Chen and
-               Sudhanshu Srivastava and
-               Zhiyao Duan and
-               Chenliang Xu},title     = {Deep Cross-Modal Audio-Visual Generation},journal   = {CoRR},volume    = {abs/1704.08292},year      = {2017},url       = {http://arxiv.org/abs/1704.08292},archivePrefix = {arXiv},eprint    = {1704.08292},timestamp = {Wed, 07 Jun 2017 14:40:44 +0200},biburl    = {http://dblp.org/rec/bib/journals/corr/ChenSDX17},bibsource = {dblp computer science bibliography, http://dblp.org}
-}
-
+	
+	@inproceedings{lchen63spie,
+	Author = {Lele, Chen and Yue, Wu and Adora M., DSouza and Anas Z., Abidin and Axel, Wismuller and Chenliang, Xu},
+	Booktitle = {arXiv:1802.02427},
+	Date-Added = {2018-01-18 05:16:26 +0000},
+	Date-Modified = {2018-01-18 05:16:26 +0000},
+	Title = {MRI Tumor Segmentation with Densely Connected 3D CNN},
+	Venue = {ARXIV},
+	Year = {2018}}
 ### Running
 
 
