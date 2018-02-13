@@ -1,6 +1,6 @@
 # Hierarchical MRI tumor segmentation with densely connected 3D CNN
 
-By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),[Anas Z. Abidin], [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/).
+By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),Anas Z. Abidin, [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/).
 
 University of Rochester.
 
@@ -14,7 +14,7 @@ University of Rochester.
 
 ### Introduction
 
-This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (https://arxiv.org/abs/1802.02427). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
+This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (https://arxiv.org/abs/1802.02427). This code can be applied directly in [BTRAS2017](http://braintumorsegmentation.org/). 
 
 ![model](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/spie.gif)
 
