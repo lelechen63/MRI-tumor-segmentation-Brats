@@ -23,14 +23,12 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 If you use these models or the ideas in your research, please cite:
 	
-	@inproceedings{lchen63spie,
-	Author = {Lele, Chen and Yue, Wu and Adora M., DSouza and Anas Z., Abidin and Axel, Wismuller and Chenliang, Xu},
-	Booktitle = {arXiv:1802.02427},
-	Date-Added = {2018-01-18 05:16:26 +0000},
-	Date-Modified = {2018-01-18 05:16:26 +0000},
-	Title = {MRI Tumor Segmentation with Densely Connected 3D CNN},
-	Venue = {ARXIV},
-	Year = {2018}}
+	@inproceedings{ChWuDSSPIE2018,
+    Author = {Chen, Lele and Wu, Yue and DSouza, Adora M and Abidin, Anas Z and Wism{\“u}ller, Axel and Xu, Chenliang},
+    Booktitle = {SPIE Conference on Medical Imaging},
+    Title = {MRI tumor segmentation with densely connected 3D CNN},
+    Venue = {SPIE},
+    Year = {2018}}
 ### Running
 
 
