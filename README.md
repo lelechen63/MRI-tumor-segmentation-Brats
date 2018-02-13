@@ -15,7 +15,8 @@ University of Rochester.
 ### Introduction
 
 This repository contains the original models (dense24, dense48, no-dense) described in the paper "Hierarchical MRI tumor segmentation with densely connected 3D CNN" (https://arxiv.org/abs/1802.02427). These models are those used in [BTRAS2017](http://braintumorsegmentation.org/). 
-![model](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/spie_gif.gif)
+
+![model](https://github.com/lelechen63/MRI-tumor-segmentation-Brats/blob/master/image/spie.gif)
 
 
 ### Citation
