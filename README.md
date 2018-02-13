@@ -48,6 +48,7 @@ If you use these models or the ideas in your research, please cite:
 	- `-r`: data path
 	- `-sp`: save path/name
 	- ...
+
 For example:
 `python train.py -bs 2 -gpu 0  -mn dense24 -nc True -sp dense48_correction -e 5  -r /mnt/disk1/dat/lchen63/spie/Brats17TrainingData/HGG`
 
