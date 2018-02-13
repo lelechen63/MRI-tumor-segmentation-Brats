@@ -1,6 +1,6 @@
 # Hierarchical MRI tumor segmentation with densely connected 3D CNN
 
-By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),[Anas Z. Abidin], [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/), [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller).
+By Lele Chen, Yue Wu, [Adora M. DSouza](https://www.rochester.edu/college/gradstudies/profiles/adora-dsouza.html),[Anas Z. Abidin], [Axel W. E. Wismuelle](https://www.urmc.rochester.edu/people/27063859-axel-w-e-wismueller), [Chenliang Xu](https://www.cs.rochester.edu/~cxu22/).
 
 University of Rochester.
 
