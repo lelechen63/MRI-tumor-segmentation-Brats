@@ -23,18 +23,25 @@ This repository contains the original models (dense24, dense48, no-dense) descri
 
 If you use these models or the ideas in your research, please cite:
 	
-	@proceeding{doi: 10.1117/12.2293394,
-		author = { Lele  Chen,Yue  Wu,Adora M. DSouza,Anas Z. Abidin,Axel  Wismüller,Chenliang  Xu},
-		title = {MRI tumor segmentation with densely connected 3D CNN},
-		journal = {Proc.SPIE},
-		volume = {10574},
-		number = {},
-		pages = {10574 - 10574 - 8},
-		year = {2018},
-		doi = {10.1117/12.2293394},
-		URL = {https://doi.org/10.1117/12.2293394},
-		eprint = {}
-		}
+	@inproceedings{DBLP:conf/miip/ChenWDAWX18,
+	  author    = {Lele Chen and
+		       Yue Wu and
+		       Adora M. DSouza and
+		       Anas Z. Abidin and
+		       Axel Wism{\"{u}}ller and
+		       Chenliang Xu},
+	  title     = {{MRI} tumor segmentation with densely connected 3D {CNN}},
+	  booktitle = {Medical Imaging 2018: Image Processing, Houston, Texas, United States,
+		       10-15 February 2018},
+	  pages     = {105741F},
+	  year      = {2018},
+	  crossref  = {DBLP:conf/miip/2018},
+	  url       = {https://doi.org/10.1117/12.2293394},
+	  doi       = {10.1117/12.2293394},
+	  timestamp = {Tue, 06 Mar 2018 10:50:01 +0100},
+	  biburl    = {https://dblp.org/rec/bib/conf/miip/ChenWDAWX18},
+	  bibsource = {dblp computer science bibliography, https://dblp.org}
+	}
 ### Running
 
 
